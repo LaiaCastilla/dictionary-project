@@ -12,7 +12,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Open source code by Laia</footer>
+        <footer>
+          <a
+            href="https://github.com/Aylhenia/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open source
+          </a>{" "}
+          code by Laia
+        </footer>
       </div>
     </div>
   );

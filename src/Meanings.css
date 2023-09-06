@@ -2,3 +2,15 @@
   font-weight: 500;
   color: #085f63;
 }
+.Meanings .example {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .Meanings {
+    font-size: 10px;
+  }
+  .Meanings .part-of-speech {
+    font-size: 15px;
+  }
+}

@@ -41,3 +41,20 @@ body {
   color: #085f63;
   text-shadow: 3px 3px 11px rgba(73, 190, 183, 0.7);
 }
+
+@media (max-width: 600px) {
+  body {
+    max-width: 550px;
+  }
+  .App .App-header {
+    margin: 50px 0 20px;
+  }
+  .App h1 {
+    font-size: 50px;
+  }
+  .App footer {
+    margin: 20px 0 auto;
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+}

@@ -6,3 +6,11 @@
   transform: scale(1);
   border: 1px solid rgba(134, 184, 253, 1);
 }
+.Dictionary form {
+  margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+  .Dictionary form {
+    margin-bottom: 10px;
+  }
+}

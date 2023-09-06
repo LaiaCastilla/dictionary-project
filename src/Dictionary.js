@@ -25,7 +25,7 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search} className="input-group mb-5">
+      <form onSubmit={search} className="input-group">
         <input
           type="search"
           class="form-control"

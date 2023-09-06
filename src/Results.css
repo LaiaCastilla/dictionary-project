@@ -12,3 +12,18 @@
 .Results .phonetics {
   font-size: 20px;
 }
+
+@media (max-width: 600px) {
+  .Results .word {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Results .phonetics {
+    font-size: 10px;
+  }
+  .Results section {
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+}

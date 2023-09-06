@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary</h1>
+          <h1>
+            <a href="/">Dictionary</a>
+          </h1>
         </header>
         <main>
           <Dictionary />
@@ -20,7 +22,14 @@ function App() {
           >
             Open source
           </a>{" "}
-          code by Laia
+          code by{" "}
+          <a
+            href="https://laiafrontend.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Laia
+          </a>
         </footer>
       </div>
     </div>

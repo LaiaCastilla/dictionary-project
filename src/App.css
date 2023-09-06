@@ -15,7 +15,10 @@ body {
   margin: 100px 0 50px;
   text-align: center;
 }
-
+.App a {
+  text-decoration: none;
+  color: rgb(4, 31, 41);
+}
 .App h1 {
   font-size: 100px;
   color: rgb(4, 31, 41);
@@ -27,4 +30,14 @@ body {
   display: block;
   margin: 50px 0 auto;
   margin-bottom: 50px;
+}
+
+.App footer a {
+  color: black;
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+.App footer a:hover {
+  color: #085f63;
+  text-shadow: 3px 3px 11px rgba(73, 190, 183, 0.7);
 }

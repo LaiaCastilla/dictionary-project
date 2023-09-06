@@ -9,11 +9,15 @@
 .Dictionary form {
   margin-bottom: 50px;
 }
-
+.Dictionary .col-4 {
+  padding: 0 5px;
+}
 .Dictionary img {
   border-radius: 6px;
-  margin: 10px 0;
-  padding: 0;
+  margin: 5px 0;
+}
+.Dictionary .row {
+  margin: 0 2px;
 }
 
 @media (max-width: 720px) {
@@ -21,6 +25,7 @@
     margin-bottom: 10px;
   }
   .Dictionary img {
+    border-radius: 4px;
     margin: 5px 0;
   }
 }

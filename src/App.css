@@ -42,7 +42,7 @@ body {
   text-shadow: 3px 3px 11px rgba(73, 190, 183, 0.7);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   body {
     max-width: 550px;
   }

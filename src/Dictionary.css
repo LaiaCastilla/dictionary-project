@@ -9,8 +9,18 @@
 .Dictionary form {
   margin-bottom: 50px;
 }
+
+.Dictionary img {
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 0;
+}
+
 @media (max-width: 720px) {
   .Dictionary form {
     margin-bottom: 10px;
+  }
+  .Dictionary img {
+    margin: 5px 0;
   }
 }

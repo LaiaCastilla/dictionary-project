@@ -1,36 +1,30 @@
 body {
-  background-image: url(./images/ron-lach-tinta.jpg);
+  /* background-image: url(./images/ron-lach-tinta.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  display: block;
+  display: block; */
+  background: #f1f1f1;
   margin: 0 auto;
   max-width: 900px;
+  font-family: "Victor Mono", monospace;
 }
 
 .App .App-header {
-  margin: 300px 0 50px;
-  font-family: "Special Elite";
+  margin: 100px 0 50px;
   text-align: center;
 }
+
 .App h1 {
   font-size: 100px;
   color: rgb(4, 31, 41);
   text-shadow: 3px 2px 7px rgba(4, 31, 41, 0.4);
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.App footer {
+  text-align: center;
+  display: block;
+  margin: 50px 0 auto;
+  margin-bottom: 50px;
+}

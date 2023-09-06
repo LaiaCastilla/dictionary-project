@@ -1,20 +1,25 @@
 import React from "react";
 import Meanings from "./Meanings";
 
+import "./Results.css";
+
 export default function Results(props) {
-  //   console.log(props.results.word);
   if (props.results) {
     return (
       <div className="Results">
-        <div className="word-phon">
-          <span className="word">{props.results.word} </span>
-          <span className="phonetics">/{props.results.phonetic}/</span>
-        </div>
+        <section>
+          <div className="word-phon">
+            <span className="word">{props.results.word} </span>
+            <span className="phonetics">/{props.results.phonetic}/</span>
+          </div>
+        </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
-              <Meanings meanings={meaning} />
-            </div>
+            <section>
+              <div key={index}>
+                <Meanings meanings={meaning} />
+              </div>
+            </section>
           );
         })}
       </div>

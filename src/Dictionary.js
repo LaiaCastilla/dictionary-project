@@ -9,7 +9,9 @@ export default function Dictionary() {
   let [dictionaryResponse, setDictionaryResponse] = useState(null);
   function handleResponse(response) {
     console.log(response.data);
+
     setDictionaryResponse(response.data);
+
     console.log(response.data.meanings[0].definition);
   }
 
@@ -25,7 +27,7 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search} className="input-group mb-3">
+      <form onSubmit={search} className="input-group mb-5">
         <input
           type="search"
           class="form-control"

@@ -7,7 +7,7 @@ body {
   display: block; */
   background: #f1f1f1;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 960px;
   font-family: "Victor Mono", monospace;
 }
 
@@ -44,7 +44,7 @@ body {
 
 @media (max-width: 720px) {
   body {
-    max-width: 550px;
+    max-width: 700px;
   }
   .App .App-header {
     margin: 50px 0 20px;

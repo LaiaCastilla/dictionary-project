@@ -9,7 +9,7 @@
 .Dictionary form {
   margin-bottom: 50px;
 }
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .Dictionary form {
     margin-bottom: 10px;
   }

@@ -16,7 +16,7 @@ function App() {
         </main>
         <footer>
           <a
-            href="https://github.com/Aylhenia/dictionary-project"
+            href="https://github.com/LaiaCastilla/dictionary-project"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +24,7 @@ function App() {
           </a>{" "}
           code by{" "}
           <a
-            href="https://laiafrontend.netlify.app/"
+            href="https://laiacastilla.com"
             target="_blank"
             rel="noreferrer"
           >
